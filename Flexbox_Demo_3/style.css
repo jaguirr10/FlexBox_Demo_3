@@ -1,0 +1,76 @@
+
+body {
+  background: #000;
+  overflow-y:hidden;
+  margin: 0;
+  padding:0;
+}
+
+main {
+  min-height: 74vh;
+  display: flex;
+  flex-flow: row;
+}
+ 
+main > article {
+  border: 1px solid #000;
+  background: #0099ff;
+  flex: 1 1 50%;
+}
+
+main > nav {
+  border: 1px solid #000;
+  background: #3333ff;
+  flex: 1 1 25%;
+}
+
+main > aside {
+  display: flex;
+  flex-flow: column;
+  background: ;
+  flex: 1 1 25%;
+}
+
+#aside1 {
+  background: #ffcc33;
+  border: 1px solid #000;
+  flex: 1 1 50%;
+}
+
+#aside2 {
+  background: #ffff33;
+  border: 1px solid #000;
+  flex: 1 1 25%;
+}
+
+#aside3 {
+  background: #00e600;
+  border: 1px solid #000;
+  flex: 1 1 25%;
+}
+
+header {
+  display: block;
+  min-height: 12vh;
+  border: 1px solid #000;
+  background: #00cccc;
+}
+
+footer {
+  min-height: 12vh;
+  display: flex;
+  flex-flow: row;
+  background: black;
+  
+}
+
+.foot-sec {
+  background:#9999ff;
+  flex: 1 1 33%;
+  border: 1px solid #000;
+}
+
+.foot-sec-3 {
+  background: #ff3333;
+}
+
